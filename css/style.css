@@ -609,7 +609,7 @@ color: #8e8f99;
 margin-bottom: 4px;}
 
 .modal-form-input-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .contact-form-input {outline: transparent;
@@ -673,7 +673,7 @@ margin-bottom: 4px;}
   resize: none;
   padding-left: 16px;
   padding-top: 8px;
-  line-height: 1.4;
+  
   border: 1px solid rgba(46, 47, 66, 0.2);
   background-color: transparent;
   padding: 8px 16px;
