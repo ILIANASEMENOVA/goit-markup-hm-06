@@ -596,7 +596,7 @@
     </footer>
 
     <!-- модельне вікно -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg
@@ -618,10 +618,11 @@
             </label>
             <div class="contact-form-imput-wrapper">
               <input
-                id="uzer-name"
+              name="user-name" 
+                
                 class="contact-form-input"
                 type="text"
-                name="uzer-name"
+                id="user-name"
                 required
                 pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
               />
@@ -693,23 +694,25 @@
 
             <textarea
               class="contact-form-message"
-              name="user_message"
+              id="user-comment"
               placeholder="Text input"
+              name="user-comment"
             ></textarea>
           </div>
 
           <div class="modal-form-check-desk-type">
             <input
-              id="checkbox_icon"
+              
               class="contact-form-checkbox"
               type="checkbox"
               name="user-coment"
               required
-              id="user-comment"
+              value="true"
+              id="user-privacy"
             />
 
             <label
-              for="checkbox_icon"
+              for="checkbox_icon" for="user-privacy"
               class="contact-form-checkbox-wrapper visually-hidden"
             >
               <span class="contact-form-checkmark">
