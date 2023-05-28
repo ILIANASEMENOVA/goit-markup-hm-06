@@ -678,11 +678,7 @@ body {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
-.contact-form-own-checkbox {
-  fill: #f4f4fd;
-  /* cursor: pointer;
-  margin-right: 8px; */
-}
+
 .contact-form-checkbox {
   appearance: none;
   position: absolute;
@@ -704,9 +700,7 @@ body {
   letter-spacing: 0.04em;
   text-decoration-line: underline;
 }
-.contact-form-checkmark-icon {
-  opacity: 0;
-}
+
 .contact-form-checkbox:focus + .contact-form-own-checkbox {
   outline: 2px solid rgba(0, 0, 255, 0.5);
 }
@@ -724,7 +718,6 @@ body {
 height: 16px;
 border: 1px solid #2e2f42;
 border-radius: 2px;
-padding: 4px 3px;
 margin-right: 8px;
 display: inline-flex;
 align-items: center;
