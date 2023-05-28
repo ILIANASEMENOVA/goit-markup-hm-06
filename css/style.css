@@ -612,7 +612,8 @@ margin-bottom: 4px;}
   margin-bottom: 8px;
 }
 
-.contact-form-input {
+.contact-form-input {outline: transparent;
+  background-color: transparent;
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -641,12 +642,13 @@ margin-bottom: 4px;}
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition: background-color var(--transition-duretion-and-func);
+  transition: fill var(--transition-duretion-and-func);
 }
 .contact-form-imput-wrapper {
   position: relative;
   display: block;
   font-size: 12px;
+  margin-bottom: 16px;
 }
 .contact-form-input-text {
   margin-bottom: 16px;
