@@ -679,11 +679,9 @@ body {
   color: rgba(46, 47, 66, 0.4);
 }
 .contact-form-own-checkbox {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  padding: 3px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-right: 8px;
+  fill: #f4f4fd;
+  /* cursor: pointer;
+  margin-right: 8px; */
 }
 .contact-form-checkbox {
   appearance: none;
@@ -714,13 +712,24 @@ body {
 }
 
 .contact-form-checkbox:checked
-  + .contact-form-own-checkbox
-  > .contact-form-checkmark-icon {
+  + .contact-form-checkbox-wrapper
+  > .contact-form-checkmark {
   opacity: 1;
   background-color: #404bbf;
     border: none;
     fill: #ffffff;
     border-color: #404bbf;
+}
+.contact-form-checkmark{ width: 16px;
+height: 16px;
+border: 1px solid #2e2f42;
+border-radius: 2px;
+padding: 4px 3px;
+margin-right: 8px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
 }
 
 .contact-form-submit {
