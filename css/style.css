@@ -723,11 +723,11 @@ margin-bottom: 4px;}
 .contact-form-checkbox:checked
   + .contact-form-checkbox-wrapper
   > .contact-form-checkmark {
-  opacity: 1;
-  background-color: #404bbf;
+  /* opacity: 1; */
+  background-color: var(--buttom-focus-color);
     border: none;
     fill: #ffffff;
-    border-color: #404bbf;
+    border-color: var(--buttom-focus-color);
 }
 .contact-form-checkmark{ width: 16px;
 height: 16px;
