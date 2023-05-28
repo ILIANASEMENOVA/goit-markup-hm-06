@@ -576,7 +576,7 @@
                 type="email"
                 name="user_mail"
                 class="form-input-footer"
-                placeholder="Email"
+                placeholder="E-mail"
               />
             </label>
             <button type="submit" class="footer-form-button">
@@ -594,8 +594,13 @@
         </div>
       </div>
     </footer>
+
+
+
+    <!-- модельне вікно -->
     <div class="backdrop" data-modal>
       <div class="modal">
+       
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg
             class="modal-close-icon"
@@ -606,10 +611,11 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="contact-form-input-text">
+          Leave your contacts and we will call you back
+        </p>
         <form class="contact-form">
-          <p class="contact-form-input-text">
-            Leave your contacts and we will call you back
-          </p>
+          
           <div class="modal-form-input-wrapper">
             <label class="contact-form-field-wrapper">
               <span class="contact-form-field-desc"> Name</span>
@@ -632,6 +638,8 @@
               </span>
             </label>
           </div>
+
+
 
           <div class="modal-form-input-wrapper">
             <label class="contact-form-field-wrapper">
@@ -661,10 +669,11 @@
               <span class="contact-form-imput-wrapper">
                 <input
                   class="contact-form-input"
-                  type="mail"
+                  type="email"
                   name="uzer_email"
                   required
                   pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
+                  placeholder="E-mail"
                 />
                 <svg
                   class="contact-form-icon"
