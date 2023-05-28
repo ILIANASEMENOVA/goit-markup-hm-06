@@ -622,7 +622,7 @@ margin-bottom: 4px;}
   padding-left: 38px;
   transition: border-color var(--transition-duretion-and-func);
 }
-.contact-form-input:hover,
+/* .contact-form-input:hover, */
 .contact-form-input:focus {
   outline: none;
   border-color: #4d5ae5;
@@ -682,7 +682,7 @@ margin-bottom: 4px;}
   border-radius: 4px;
   transition: border-color var(--transition-duretion-and-func);
 }
-.contact-form-message:hover,
+
 .contact-form-message:focus {
   outline: none;
   border-color: #4d5ae5;
@@ -724,7 +724,7 @@ margin-bottom: 4px;}
 .contact-form-checkbox:checked
   + .contact-form-checkbox-wrapper
   > .contact-form-checkmark {
-  /* opacity: 1; */
+
   background-color: var(--buttom-focus-color);
     border: none;
     fill: #ffffff;
