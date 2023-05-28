@@ -617,13 +617,14 @@
         <form class="contact-form">
           
           <div class="modal-form-input-wrapper">
-            <label class="contact-form-field-wrapper">
+            <label class="contact-form-field-wrapper" for="uzer-name">
               <span class="contact-form-field-desc"> Name</span>
               <span class="contact-form-imput-wrapper">
                 <input
                   class="contact-form-input"
                   type="text"
-                  name="uzer_first_name"
+                  id="uzer_first_name"
+                  name="uzer-name"
                   required
                   pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
                 />
@@ -642,13 +643,14 @@
 
 
           <div class="modal-form-input-wrapper">
-            <label class="contact-form-field-wrapper">
+            <label class="contact-form-field-wrapper" for="uzer-tel">
               <span class="contact-form-field-desc">Phone</span>
               <span class="contact-form-imput-wrapper">
                 <input
                   class="contact-form-input"
                   type="tel"
-                  name="uzer_tel"
+                  name="uzer-tel"
+                  id="uzer-tel"
                   required
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                   title="xxx-xxx-xx-xx" />
@@ -664,13 +666,14 @@
           </div>
 
           <div class="modal-form-input-wrapper">
-            <label class="contact-form-field-wrapper">
+            <label class="contact-form-field-wrapper" for="uzer-email">
               <span class="contact-form-field-desc">Email</span>
               <span class="contact-form-imput-wrapper">
                 <input
                   class="contact-form-input"
                   type="email"
-                  name="uzer_email"
+                  name="uzer-email"
+                  id="uzer-email"
                   required
                   pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
                   placeholder="E-mail"
@@ -688,7 +691,7 @@
           </div>
 
           <div class="modal-form-input-wrapper">
-            <label class="contact-form-field-wrapper">
+            <label class="contact-form-field-wrapper" for="user-comment">
               <span class="contact-form-field-desc">Comment</span>
 
               <textarea
@@ -704,8 +707,9 @@
             id="checkbox_icon"
             class="contact-form-checkbox"
             type="checkbox"
-            name="user_policy"
+            name="user-coment"
             required
+            id="user-comment"
           />
         
             <label for="checkbox_icon" class="contact-form-checkbox-wrapper">
